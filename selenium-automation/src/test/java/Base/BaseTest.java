@@ -19,7 +19,7 @@ public class BaseTest {
     public SignupPage signupPage;
 
     @BeforeClass
-    public void setUp(){
+    public void setUp() {
         WebDriverManager.chromedriver().setup();
     }
 }

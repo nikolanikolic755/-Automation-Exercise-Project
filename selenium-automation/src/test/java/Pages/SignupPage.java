@@ -1,4 +1,14 @@
 package Pages;
 
-public class SignupPage {
+import Base.BaseTest;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+
+public class SignupPage extends BaseTest {
+
+    WebDriver driver;
+
+    public SignupPage(WebDriver driver) {
+        this.driver = driver;
+    }
 }
